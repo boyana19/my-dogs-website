@@ -3,14 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моите кученца</title>
+    <title>Моите кученца 🐶</title>
+    <style>
+        /* Основни настройки */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff8f0;
+            color: #333;
+        }
+
+        /* Банер и заглавие */
+        header {
+            background: linear-gradient(135deg, #ff6f61, #ff8c42);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.3em;
+            margin-top: 10px;
+        }
+
+        /* Основно съдържание */
+        main {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #ff6f61;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        /* Галерия на кученцата */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .gallery img {
+            width: 250px;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        }
+
+        /* Малко секции с истории */
+        .story {
+            background-color: #fff4e6;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .story h3 {
+            color: #ff8c42;
+            margin-top: 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #ff6f61;
+            color: white;
+            padding: 25px 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Здравей! 🐶</h1>
-    <p>Това е моят първи сайт с кученца!</p>
-    
-    <h2>Моите сладури:</h2>
-    <img src="IMG_3034.jpeg" alt="Кученце 1" width="300">
-    <img src="IMG_9963.jpeg" alt="Кученце 2" width="300"
+
+    <header>
+        <h1>Моите кученца 🐶</h1>
+        <p>Добре дошли в сайта на моите сладури!</p>
+    </header>
+
+    <main>
+        <h2>Галерия</h2>
+        <div class="gallery">
+            <img src="IMG_3034.jpeg" alt="Кученце 1">
+            <img src="IMG_9543.jpeg" alt="Кученце 2">
+            <img src="IMG_9655.jpeg" alt="Кученце 3">
+            <img src="IMG_9963.jpeg" alt="Кученце 4">
+        </div>
+
+        <h2>За тях</h2>
+        <p>Тук можеш да разкажеш малко за всяко от кученцата – имена, игри, любими места за разходка и забавни истории. 🐾</p>
+
+        <div class="story">
+            <h3>Име на кученце 1</h3>
+            <p>Тук можеш да напишеш малко за неговия характер или любима игра.</p>
+        </div>
+
+        <div class="story">
+            <h3>Име на кученце 2</h3>
+            <p>Добави забавни моменти или любими храни.</p>
+        </div>
+
+        <div class="story">
+            <h3>Име на кученце 3</h3>
+            <p>Малко история или любими разходки с него.</p>
+        </div>
+
+        <div class="story">
+            <h3>Име на кученце 4</h3>
+            <p>Можеш да добавиш и снимка или история за това кученце.</p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 Моите кученца. Всички права запазени.
+    </footer>
+
 </body>
 </html>
